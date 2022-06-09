@@ -2,6 +2,8 @@
 
 The SoCKit Development Kit presents a robust hardware design platform built around the Altera Cyclone V System-on-Chip (SoC) FPGA, which integrates an ARM-based hard processor system (HPS) consisting of processor, peripherals and memory interfaces tied seamlessly with a 110K Logic Elements FPGA fabric using a high-bandwidth interconnect backbone. The SoCKit development board includes hardware such as high-speed DDR3 memory, video and audio capabilities, Ethernet networking, and much more. 
 
+**Looking for using SoCkit as a MiSTer compatible board?** Have a look at https://github.com/sockitfpga/MiSTer_SoCkit
+
 The folders contain the following information:
 
 * **Tutorials**: Basic tutorials for learning how to use Quartus (Block diagram editor and Verilog code editor), Platform designer (Qsys), Intel SoC EDS (Embedded Development Suite).
@@ -10,25 +12,12 @@ The folders contain the following information:
 
 * **Cores**: Some cores I've made/ported
 
-* **Beta Projects**: Work in progress projects
-
-* **Templates**: Ready made templates for your projects
-
-* **Mister**: Info about the Mister port
-
 * **Documents**: Various useful documentation (schematics, images, ...)
 
 * **Others**: Some other content 
 
-  
 
-### **Contributing:**
 
-[Contributing](https://github.com/SoCFPGA-learning/General/tree/main/Contributing) is needed to increase the amount of resources and projects available to the community. Any language can be used for documenting the projects.
-
-### **Colaboraciones:**
-
-Se necesita la [colaboración](https://github.com/SoCFPGA-learning/General/tree/main/Github_ayuda) para poder incrementar los recursos disponibles para la comunidad entorno esta placa de desarrollo.    La documentación que acompañe los proyectos puede estar redactada en cualquier idioma.
 
 ### Other media
 
@@ -47,15 +36,6 @@ Se necesita la [colaboración](https://github.com/SoCFPGA-learning/General/tree/
 
 * https://community.intel.com/
 
-  **MiSTer port**:
+  
 
-* Main MiSTer port site https://github.com/MiSTer-Arrow-SoCKit/Main_MiSTer/wiki 
-
-* Mister SDRAM expansion http://modernhackers.com/128mb-sdram-board-on-de10-standard-de1-soc-and-arrow-sockit-fpga-sdram-riser/
-
-* Info about the port http://modernhackers.com/porting-mister-to-arrow-sockit-fpga/
-
-* Comparison of ported cores between platforms http://modernhackers.com/mister/
-
-* ao486 core for https://github.com/MiSTer-Arrow-SoCKit/ao486_MiSTer
 
